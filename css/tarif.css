@@ -1,0 +1,68 @@
+.tarif{
+    font-family: Roboto;
+    font-weight: lighter;
+}
+
+.tarif__title{
+    font-family: Roboto;
+    font-size: 49px;
+    margin-left: 200px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 4px;
+    margin-left: 195px;
+}
+
+.tarif__list{
+    text-align: center;
+    margin-left: 183px;
+    margin-top: 69px;
+}
+
+.tarif__item{
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    margin-right: 75px;
+}
+
+
+.item__img{
+    background: #4b73b5;
+    width: 69px;
+    height: 69px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    left: 65px;
+}
+
+.item__img-pic{
+    margin-top: 18px;
+}
+
+.item__text{
+    color: #767575;
+    font-size: 18px;
+    margin-top: 35px;
+}
+
+.text__type{
+    margin-bottom: 30px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.item__list{
+    text-align: left;
+    list-style: disc;
+    list-style: inside;
+    margin-top: 20px;
+}
+
+.tarif__amount{
+    font-size: 55px;
+    margin-top: 48px;
+    margin-left: -12px;
+    font-weight: 400;
+}

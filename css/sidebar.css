@@ -1,0 +1,45 @@
+.sidebar{
+    margin-top: 11px;
+    float: left;
+    width: 200px;
+}
+
+.side__list{
+    margin-left: 20px;
+}
+
+.side__list-item{
+    margin-top: 30px;
+}
+
+.side__img{
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: middle;
+    color: #4b73b5;
+}
+
+.side__title{
+    display: inline-block;
+    margin: 0;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 12px;
+    color: #4b73b5;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: -5px;
+}
+
+.side__title_main{
+    color: black;
+    font-size: 12px;
+    font-family: Roboto;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+}
+
+.side__title:hover{
+    color: black;
+}

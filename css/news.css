@@ -1,0 +1,58 @@
+.news{
+    margin-top: -111px;
+}
+
+.news__title{
+    margin-bottom: 30px;
+    margin-top: 197px;
+    margin-left: 198px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.news__list{
+    margin-left: 200px;
+}
+
+.news__list-item{
+    border-bottom: 2px solid #f5f5f5; 
+    padding-bottom: 24px;
+    padding-top: 36px;
+}
+.news__img{
+    background: url(../img/news/planeflying.png) no-repeat;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    background-size: 160px;
+    float: left;
+    margin-right: 20px;
+}
+.news__img-grusiz{
+    background: url(../img/news/grusiz.png);
+    background-size: 165px;
+}
+.news__img-kids{
+    background: url(../img/news/kids.png);
+    background-size: 165px;
+}
+
+.news__text{
+    float: left;
+    width: 600px;
+    padding-top: 17px;
+}
+.news__date{
+    color: #adacac;
+    font-size: 14px;
+    margin-top: -16px;
+}
+.news__desk{
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 6px;
+}
+.news__opisan{
+    margin-top: 16px;
+    line-height: 2;
+    font-size: 16px;
+}

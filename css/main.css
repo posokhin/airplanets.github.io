@@ -1,0 +1,27 @@
+
+@import url(base.css) screen;
+@import url(header.css) screen;
+@import url(sidebar.css) screen;
+@import url(banner.css) screen;
+@import url(tarif.css) screen;
+@import url(news.css) screen;
+@import url(pag.css) screen;
+@import url(footer.css) screen;
+@import url(bread.css) screen;
+@import url(feed.css) screen;
+@import url(pattern.css) screen;
+
+@font-face{
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Bold_1.ttf) format(ttf);
+    font-weight: bold;
+}
+@font-face{
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Light_1.ttf) format(ttf);
+    font-weight: lighter;
+}
+@font-face{
+    font-family: Roboto;
+    src: url(../fonts/Roboto-LightItalic_1.ttf) format(ttf);
+}

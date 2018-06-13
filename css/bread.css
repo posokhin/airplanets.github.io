@@ -1,0 +1,19 @@
+.bread{
+    margin-top: 45px;
+    display: inline-block;
+}
+
+.bread__list-item{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.bread__link{
+    font-style: 14px;
+    font-style: italic;
+    color: #656464;
+}
+.bread__link__noactive{
+    text-decoration: underline;
+    color: #6385d0;
+}

@@ -1,0 +1,31 @@
+.pattern{
+    background: url(/img/pattern/pattern.png);
+    height: 170px;
+    position: relative;
+    margin-top: 64px;
+}
+.pattern__title{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    width: 743px;
+    padding-top: 30px;
+    overflow: hidden;
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 2;
+}
+
+.pattern__link{
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+}
+.pattern__link-tel{
+    color: white;
+    font-weight: bold;
+}
