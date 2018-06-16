@@ -117,58 +117,58 @@
     height: 30px;
     margin: 0 auto;
     margin-top: 15px;
+    transition: .3s;
 }
 .team__link-pic1:hover{
     background: url(../img/team/hover/part1hover.png);
-    transition: .3s;
 }
 .team__link-pic2{
     background: url(../img/team/partner/part2.png) no-repeat;
     width: 161px;
     height: 64px;
     margin: 0 auto;
+    transition: .3s;
 }
 .team__link-pic2:hover{
     background: url(../img/team/hover/part2hover.png);
-    transition: .3s;
 }
 .team__link-pic3{
     background: url(../img/team/partner/part3.png) no-repeat;
     width: 133px;
     height: 64px;
     margin: 0 auto;
+    transition: .3s;
 }
 .team__link-pic3:hover{
     background: url(../img/team/hover/part3hover.png);
-    transition: .3s;
 }
 .team__link-pic4{
     background: url(../img/team/partner/part4.png) no-repeat;
     width: 141px;
     height: 63px;
     margin: 0 auto;
+    transition: .3s;
 }
 .team__link-pic4:hover{
     background: url(../img/team/hover/part4hover.png);
-    transition: .3s;
 }
 .team__link-pic5{
     background: url(../img/team/partner/part5.png) no-repeat;
     width: 46px;
     height: 64px;
     margin: 0 auto;
+    transition: .3s;
 }
 .team__link-pic5:hover{
     background: url(../img/team/hover/part5hover.png);
-    transition: .3s;
 }
 .team__link-pic6{
     background: url(../img/team/partner/part6.png) no-repeat;
     width: 82px;
     height: 64px;
     margin: 0 auto;
+    transition: .3s;
 }
 .team__link-pic6:hover{
     background: url(../img/team/hover/part6hover.png);
-    transition: .3s;
 }

@@ -31,7 +31,7 @@ margin-top: -7px;
     padding: 20px;
 }
 
-.contacts__tel{
+.contacts__tel, .contacts__tel-link{
     color: white;
     font-size: 21px;
     font-family: Roboto;
@@ -43,13 +43,67 @@ margin-top: -7px;
 
 .contacts__time{
     text-align: right;
+    position: relative;
+}
+.contacts__time:hover > .dropblock{
+    transition: .3s;
+    opacity: 1;
 }
 .time{
     font-size: 14px;
     font-family: Roboto;
     font-weight: bold;
-    color: #d4dbea; 
+    color: #d4dbea;
+    text-decoration: underline;
 }
 .time:hover{
     color: white;
+}
+.dropblock::before{
+    content: "";
+    height: 50px;
+    display: block;
+    position: absolute;
+    top: -20px;
+    left: 0;
+    right: 0;
+}
+.dropblock{
+    width: 165px;
+    height: 70px;
+    background: #ffffff;
+    position: absolute;
+    border-radius: 3px;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    left: 10px;
+    opacity: 0;
+}
+.dropblock__desk{
+    text-align: justify;
+    margin: 0 auto;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+}
+.dropblock__day{
+    color: #1c5bc3;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.dropblock__break{
+    color: black;
+    font-size: 14px;
+    font-weight: lighter;
+}
+.dropblock__triangle{
+    width: 0;
+    height: 0;
+    border-bottom: 10px solid #ffffff;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    position: absolute;
+    bottom: 100%;
+    right: 24px;
 }
