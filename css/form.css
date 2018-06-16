@@ -1,0 +1,117 @@
+.form{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.form__wrap{
+    background: #f5f5f5;
+    width: 700px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.form__title{
+    font-size: 49px;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-left: 50px;
+    margin-bottom: 30px;
+}
+.form__content{
+    margin-left: 50px;
+    padding-bottom: 50px;
+}
+
+.form__item{
+    margin-bottom: 20px;
+}
+.form__item:last-child{
+   margin: 0;
+}
+
+
+.form__name{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.form__item-title{
+    display: block;
+    font-size: 14px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+.form__name-input{
+    border: none;
+    border-radius: 3px;
+    width: 270px;
+    height: 45px;
+    padding-left: 10px;
+}
+
+.form__textarea{
+    border: none;
+    border-radius: 3px;
+    width: 573px;
+    height: 91px;
+    resize: none;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.form__contol-title{
+    font-size: 14px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+.form__radio-btn{
+    display: inline-block;
+    margin-right: 20px;
+}
+.radio{
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+}
+.form__radio-title{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: lighter;
+    vertical-align: middle;
+}
+
+.form__control{
+    float: left;
+    width: 183px;
+    margin-right: 246px;
+   
+}
+.form__send{
+    float: left;
+    width: 155px;
+}
+
+.form__send-btn{
+    width: 154px;
+    height: 45px;
+    border: none;
+    border-radius: 3px;
+    background: #4b73b5;
+    cursor: pointer;
+}
+
+.form__send-text{
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 2px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 3px;
+}
+.form__send-img{
+    vertical-align: middle;
+    width: 15px;
+    height: 15px;
+}

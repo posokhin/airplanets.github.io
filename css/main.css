@@ -10,6 +10,8 @@
 @import url(bread.css) screen;
 @import url(feed.css) screen;
 @import url(pattern.css) screen;
+@import url(form.css) screen;
+@import url(team.css) screen;
 
 @font-face{
     font-family: Roboto;

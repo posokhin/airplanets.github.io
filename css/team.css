@@ -1,0 +1,174 @@
+.team{
+    margin-left: 200px;
+}
+.team__people{
+    margin-bottom: 50px;
+}
+.team__title{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.team__list_margin{
+    margin-bottom: 47px;
+}
+.team__item{
+    float: left;
+    width: 300px;
+}
+.team__img{
+    background: url(../img/team/alex.png) no-repeat;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-size: contain; 
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.team__img-overlay{
+    background: #4b73b5;
+    opacity: .6;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+.team__img_inna{
+    background: url(../img/team/inna.png) no-repeat;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-size: contain;
+}
+.team__img_boris{
+    background: url(../img/team/boris.png) no-repeat;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-size: contain;
+}
+.team__img_elina{
+    background: url(../img/team/elina.png) no-repeat;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-size: contain;
+}
+.team__img_elena{
+    background: url(../img/team/elena.png) no-repeat;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-size: contain;
+}
+.team__img_yuri{
+    background: url(../img/team/yuri.png) no-repeat;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-size: contain;
+}
+.team__img-name{
+    text-align: center;
+    padding-top: 74px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+}
+.team__desk{
+    text-align: center;
+}
+.team__desk-name{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;    
+}
+.team__desk-position{
+    font-size: 14px;
+    font-weight: bold;
+    color: #4b73b5;
+    margin-bottom: 15px;
+}
+.team__text{
+    font-size: 14px;
+    text-align: center;
+}
+
+.team__partner{
+    margin-bottom: 100px;
+}
+.team__list-part{
+    text-align: center;
+}
+.team__item-part{
+    float: left;
+    width: 300px;
+}
+
+/*---hover img---*/
+
+.team__link-pic1{
+    background: url(../img/team/partner/part1.png) no-repeat;
+    width: 159px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.team__link-pic1:hover{
+    background: url(../img/team/hover/part1hover.png);
+    transition: .3s;
+}
+.team__link-pic2{
+    background: url(../img/team/partner/part2.png) no-repeat;
+    width: 161px;
+    height: 64px;
+    margin: 0 auto;
+}
+.team__link-pic2:hover{
+    background: url(../img/team/hover/part2hover.png);
+    transition: .3s;
+}
+.team__link-pic3{
+    background: url(../img/team/partner/part3.png) no-repeat;
+    width: 133px;
+    height: 64px;
+    margin: 0 auto;
+}
+.team__link-pic3:hover{
+    background: url(../img/team/hover/part3hover.png);
+    transition: .3s;
+}
+.team__link-pic4{
+    background: url(../img/team/partner/part4.png) no-repeat;
+    width: 141px;
+    height: 63px;
+    margin: 0 auto;
+}
+.team__link-pic4:hover{
+    background: url(../img/team/hover/part4hover.png);
+    transition: .3s;
+}
+.team__link-pic5{
+    background: url(../img/team/partner/part5.png) no-repeat;
+    width: 46px;
+    height: 64px;
+    margin: 0 auto;
+}
+.team__link-pic5:hover{
+    background: url(../img/team/hover/part5hover.png);
+    transition: .3s;
+}
+.team__link-pic6{
+    background: url(../img/team/partner/part6.png) no-repeat;
+    width: 82px;
+    height: 64px;
+    margin: 0 auto;
+}
+.team__link-pic6:hover{
+    background: url(../img/team/hover/part6hover.png);
+    transition: .3s;
+}
